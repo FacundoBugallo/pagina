@@ -1,0 +1,42 @@
+html,body {
+ padding:0px;
+ margin:0px;
+ font-size: 12px;
+font-family: helvetica;
+}
+
+
+nav{ 
+ background:rgba(201, 225, 182, 1);
+ padding: 10px;
+ color: black;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+nav ul {
+ display: flex;
+}
+
+
+
+nav li {
+padding-right: 10px;
+list-style: none;
+}
+
+nav li a {
+ color: black;
+ text-decoration: none;
+}
+
+nav li a:hover{
+ color: white;
+}
+
+.imagen{
+    width:60px;
+    height:60px;
+}

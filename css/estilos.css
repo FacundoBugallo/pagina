@@ -1,3 +1,6 @@
+
+/*________________nav*/
+
 html,body {
  padding:0px;
  margin:0px;
@@ -5,22 +8,19 @@ html,body {
 font-family: helvetica;
 }
 
-
 nav{ 
- background:rgba(201, 225, 182, 1);
+ background-color: #71c55b  ;
  padding: 10px;
  color: black;
  display: flex;
  justify-content: space-between;
  align-items: center;
+ border-bottom: 2px solid #7B926A;
 }
-
 
 nav ul {
  display: flex;
 }
-
-
 
 nav li {
 padding-right: 10px;
@@ -36,7 +36,40 @@ nav li a:hover{
  color: white;
 }
 
+/*_______________main section*/
+
 .imagen{
     width:60px;
     height:60px;
 }
+
+.main_section{
+    padding: 5%;
+    text-align: center;
+    text-decoration:underline ;
+    font-family: Marcellus SC;
+}     
+
+.fondo{
+ background-image: url("../Imagenes/font.png");
+ height: 800px;
+ background-size: cover;
+ background-position: center top ;
+}
+
+.productos{
+    padding:20px;
+    color: white;
+    display: flex;
+}
+
+.producto{
+    padding: 10px;
+}
+
+.producto .contenedor{
+    padding:20px;
+    color: white;
+    background-color:red;   
+    border: 2px solid darkred;
+} 

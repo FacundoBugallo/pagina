@@ -1,21 +1,32 @@
+/*impots*/
 
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@800&display=swap');
+
+
+/*variables----------*/
+:root{
+ --brown-color:#66280a;
+ --clainbrown-color:#ffcc8e;
+}
+
+/*variables----------*/
 /*________________nav*/
 
 html,body {
  padding:0px;
  margin:0px;
  font-size: 12px;
-font-family: helvetica;
+ font-family: helvetica;
 }
 
-nav{ 
- background-color: #71c55b  ;
- padding: 10px;
+nav { 
+ background-color: var(--clainbrown-color);
+ padding: 5px;
  color: black;
  display: flex;
  justify-content: space-between;
  align-items: center;
- border-bottom: 2px solid #7B926A;
+ border-bottom: 2px solid #9a5833;
 }
 
 nav ul {
@@ -23,7 +34,7 @@ nav ul {
 }
 
 nav li {
-padding-right: 10px;
+padding-right: 50px;
 list-style: none;
 }
 
@@ -35,41 +46,92 @@ nav li a {
 nav li a:hover{
  color: white;
 }
+/*________________nav*/
 
 /*_______________main section*/
 
 .imagen{
     width:60px;
     height:60px;
+    background-color:#e6b68b ;
+}
+.img{
+
+}
+
+.nav_options{
+     text-decoration: none;
+     list-style: none;
+    
 }
 
 .main_section{
     padding: 5%;
     text-align: center;
-    text-decoration:underline ;
-    font-family: Marcellus SC;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Solway', serif;
+
 }     
 
-.fondo{
- background-image: url("../Imagenes/font.png");
- height: 800px;
+.background{
+ background-image: url("../Imagenes/fondov2.png");
+ max-height: 900px;
  background-size: cover;
- background-position: center top ;
+ background-position: center;
 }
 
-.productos{
-    padding:20px;
-    color: white;
-    display: flex;
+.products{
+   padding:22%;
+   display: flex;
+}
+.product{
+ padding: 15px;
+ margin-top: -280px;
 }
 
-.producto{
+.products .container{
+    color: black;
+    background-color:white;
     padding: 10px;
+    box-shadow: 0 0 12px black;
+} 
+
+.main_button{
+    background-color:#c35019 ;
+    width:100%;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
 
-.producto .contenedor{
-    padding:20px;
-    color: white;
-    background-color:red;   
-    border: 2px solid darkred;
-} 
+.main_button:hover{
+    background-color:var(--brown-color);
+}
+
+.footer_options{
+}
+
+/*_______________main section*/
+
+/*_____________footer*/
+
+footer{
+    background-color: var(--clainbrown-color);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid var(--brown-color);
+    align-items: center;
+}
+
+footer a{
+ color: black;
+ text-decoration: none;
+ padding: 10px;
+}
+
+footer a:hover{
+ color: white;
+}

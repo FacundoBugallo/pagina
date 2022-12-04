@@ -20,13 +20,13 @@ html,body {
 }
 
 nav { 
- background-color: var(--clainbrown-color);
+ background-color: #262626;
  padding: 5px;
  color: black;
  display: flex;
  justify-content: space-between;
  align-items: center;
- border-bottom: 2px solid #9a5833;
+ border-bottom: 2px solid #000000;
 }
 
 nav ul {
@@ -39,12 +39,12 @@ list-style: none;
 }
 
 nav li a {
- color: black;
+ color: white;
  text-decoration: none;
 }
 
 nav li a:hover{
- color: white;
+ color: grey;
 }
 /*________________nav*/
 
@@ -53,7 +53,6 @@ nav li a:hover{
 .imagen{
     width:60px;
     height:60px;
-    background-color:#e6b68b ;
 }
 .img{
 
@@ -74,12 +73,13 @@ nav li a:hover{
 
 }     
 
-.background{
- background-image: url("../Imagenes/fondov2.png");
- max-height: 900px;
- background-size: cover;
- background-position: center;
-}
+.background-image{
+    background: url(Imagen/back.png) center center fixed;
+    background-repeat: no-repeat ;
+    background-position:center center;
+
+
+ }
 
 .products{
    padding:22%;
@@ -98,7 +98,7 @@ nav li a:hover{
 } 
 
 .main_button{
-    background-color:#c35019 ;
+    background-color:#707070 ;
     width:100%;
     padding: 10px;
     font-size: 17px;
@@ -107,10 +107,11 @@ nav li a:hover{
 }
 
 .main_button:hover{
-    background-color:var(--brown-color);
+    background-color: #302e2e;
 }
 
 .footer_options{
+
 }
 
 /*_______________main section*/
@@ -118,20 +119,21 @@ nav li a:hover{
 /*_____________footer*/
 
 footer{
-    background-color: var(--clainbrown-color);
+    background-color: #262626;
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid var(--brown-color);
+    border-top: 2px solid black;
     align-items: center;
+    color: white;
 }
 
 footer a{
- color: black;
+ color: white;
  text-decoration: none;
  padding: 10px;
 }
 
 footer a:hover{
- color: white;
+ color: grey;
 }

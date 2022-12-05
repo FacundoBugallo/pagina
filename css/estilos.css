@@ -19,6 +19,13 @@ html,body {
  font-family: helvetica;
 }
 
+body{
+    background-image: url("../Imagenes/back.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 nav { 
  background-color: #262626;
  padding: 5px;
@@ -65,21 +72,13 @@ nav li a:hover{
 }
 
 .main_section{
-    padding: 5%;
+    padding: 40px;
     text-align: center;
     text-decoration: underline;
     font-size: 20px;
     font-family: 'Solway', serif;
 
 }     
-
-.background-image{
-    background: url(Imagen/back.png) center center fixed;
-    background-repeat: no-repeat ;
-    background-position:center center;
-
-
- }
 
 .products{
    padding:22%;
@@ -92,7 +91,7 @@ nav li a:hover{
 
 .products .container{
     color: black;
-    background-color:white;
+    background-color:rgb(126, 125, 125);
     padding: 10px;
     box-shadow: 0 0 12px black;
 } 
@@ -110,10 +109,17 @@ nav li a:hover{
     background-color: #302e2e;
 }
 
-.footer_options{
-
+.footer_options {
+    font-family: sans-serif;
+   
 }
 
+.footer_container{
+ border: solid;
+ box-shadow: 0 0 12px black;
+ background-color: rgb(59, 59, 59);
+
+}
 /*_______________main section*/
 
 /*_____________footer*/
@@ -136,4 +142,9 @@ footer a{
 
 footer a:hover{
  color: grey;
+}
+
+footer h2{
+    text-decoration-line: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

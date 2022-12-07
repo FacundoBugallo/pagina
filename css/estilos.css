@@ -1,15 +1,8 @@
 /*impots*/
 
 @import url('https://fonts.googleapis.com/css2?family=Solway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
-
-/*variables----------*/
-:root{
- --brown-color:#66280a;
- --clainbrown-color:#ffcc8e;
-}
-
-/*variables----------*/
 /*________________nav*/
 
 html,body {
@@ -53,18 +46,23 @@ nav li a {
 nav li a:hover{
  color: grey;
 }
-/*________________nav*/
+
+
+samp {
+    color: #262626;
+    font-family: 'Nerko One', cursive;
+    text-decoration: underline;
+
+
+}
 
 /*_______________main section*/
 
 .imagen{
     width:60px;
     height:60px;
-}
-.img{
 
 }
-
 .nav_options{
      text-decoration: none;
      list-style: none;
@@ -83,10 +81,12 @@ nav li a:hover{
 .products{
    padding:22%;
    display: flex;
+  
 }
 .product{
  padding: 15px;
- margin-top: -280px;
+ margin-top: -300px;
+ 
 }
 
 .products .container{
@@ -94,15 +94,19 @@ nav li a:hover{
     background-color:rgb(126, 125, 125);
     padding: 10px;
     box-shadow: 0 0 12px black;
+    border: solid 2px black  ;
+    text-align: center;
 } 
 
 .main_button{
     background-color:#707070 ;
-    width:100%;
+   /* width:100%;*/
     padding: 10px;
     font-size: 17px;
-    border: none;
+    border: solid black;
     cursor: pointer;
+    text-decoration: none;
+    color: #000000;
 }
 
 .main_button:hover{
@@ -115,11 +119,41 @@ nav li a:hover{
 }
 
 .footer_container{
- border: solid;
+ border: solid black;
  box-shadow: 0 0 12px black;
  background-color: rgb(59, 59, 59);
-
 }
+
+
+
+/*___________profile*/
+
+.container_box{
+ margin: 0px auto   ;
+}
+
+.dats_contains{ 
+    background: none;
+    margin: 0px auto;
+    position: relative;
+    width: 800px;
+    min-height: 800px;
+    border-radius: 50px 50px;
+}
+
+.dats_contian{
+    border: 5px solid  rgb(0, 0, 0);
+    background: #ffffffb9;
+    position: absolute;
+    width: 200px;
+    min-height:200px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50% );
+}
+
+
+
 /*_______________main section*/
 
 /*_____________footer*/
@@ -146,5 +180,7 @@ footer a:hover{
 
 footer h2{
     text-decoration-line: underline;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }

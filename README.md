@@ -6,6 +6,6 @@ ojala todo siga bien.
 
 ## casi terminado ##
  
- Aun me queda un largo camino pero ya estoy mas trankilo,
- me falta cada ves menos y cadaves entiendo mas, estoy
+ Aun me queda un largo camino pero ya estoy mas tranquilo,
+ me falta cada ves menos y cada ves entiendo mas, estoy
  muy feliz por mi.

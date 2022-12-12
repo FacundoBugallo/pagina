@@ -13,13 +13,14 @@ html,body {
 }
 
 body{
-    background-image: url("../Imagenes/back.png");
+    background-image: url("../Imagenes/azucar-sal-a.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
-nav { 
+nav {  
  background-color: #262626;
  padding: 5px;
  color: black;
@@ -91,7 +92,7 @@ samp {
 
 .products .container{
     color: black;
-    background-color:rgb(126, 125, 125);
+    background-color:rgba(231, 231, 231, 0.575);
     padding: 10px;
     box-shadow: 0 0 12px black;
     border: solid 2px black  ;
@@ -99,18 +100,18 @@ samp {
 } 
 
 .main_button{
-    background-color:#707070 ;
-   /* width:100%;*/
+    background-color:#fffdfd0e ;
+   width:100%;
     padding: 10px;
     font-size: 17px;
-    border: solid black;
+   border: solid black;
     cursor: pointer;
     text-decoration: none;
     color: #000000;
 }
 
 .main_button:hover{
-    background-color: #302e2e;
+    background-color: #7e7d7da6;
 }
 
 .footer_options {
@@ -122,8 +123,8 @@ samp {
  border: solid black;
  box-shadow: 0 0 12px black;
  background-color: rgb(59, 59, 59);
+ padding: 10px;
 }
-
 
 
 /*___________profile*/
@@ -152,6 +153,19 @@ samp {
     transform: translate(50%, -50% );
 }
 
+.buttonClass {
+    background-color:#fffdfd0e ;
+   width:100%;
+    padding-left: 120px;
+    padding-right:  120px;
+    font-size: 17px;
+   border: solid black;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+
 
 
 /*_______________main section*/
@@ -179,8 +193,11 @@ footer a:hover{
 }
 
 footer h2{
-    text-decoration-line: underline;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+}
+
+.img{
+ width: 200px;
 }

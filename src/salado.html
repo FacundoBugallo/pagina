@@ -1,63 +1,92 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="../css/estilos.css">
-	<title>salty and sweet</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="../css/animations.css">
+    <link rel="stylesheet" type="text/css" href="../css/grid.css">
+    <title>Document</title>
 </head>
- <body>
-
-    <nav> 
+<body>
+ <nav class=fadeDown> 
 
         <img src="../Imagenes/LogoCasa.png" class="imagen">
        
         <div class="nav_options">
             <ul>
               <li><a href="../src/index.html">Back</a></li>
+              <li><a href="#">profile</a></li>
             </ul>
           </div>
-      </nav>
+ </nav>
 
-      <div class="contaniner_box">
-         <div class="dats_contains">
-          <div class="dats_contian">
-            <h1>Thanks a lot</h1>
-            <p><samp>English:</samp> hope you take the salty healthy,<br> always take care of your health</p>
-            <p><samp>Spanish:</samp> espero que lo salado los lleves saludablemente,<br> siempre cuida tu salud</p>
-           <div class="dats">
+<div class="container">
 
-           </div>
-          </div>
-         </div>
+ <div class="row">
+
+   <div class="col3">
+     <div class="dats_container">
+        <img src="../Imagenes/sal1.png" class="dats_img">
+        <h2>salty</h2>
+        <p>
+          La sal es un mineral indispensable para el cuerpo, es necesaria para varios procesos vitales.</p>
+        <p> Sale is an indispensable mineral for the body, it is necessary for various vital processes.</p>
       </div>
+   </div>
 
-    <footer >
+   <div class="col3">
+     <div class="dats_container">
+<form action="">
+<label for="text">Name</label>
+<br>
+<input type="text" name="name" class="text">
+<br>
+<label for="email">email</label>
+<br>
+<input type="text" name="email" class="text">
+<br>
+<label for="phone">phone</label>
+<br>
+<input type="text" name="phone" class="text">
+<br>
+<input class="botom" type="submit" name="submit">
+</form>
 
-        <div class="footer_options">
-          <div class="footer_container">
-          <h2> CONTACT </h2>
-            <a href="#">facundobugallo881@gmail.com</a>
-            <a href="#">1140445189</a>
-            <a href="#">https://www.instagram.com/_el_clon_/</a>
-         </div>
-        </div>
-      
-        <div class="footer_options">
-          <div class="footer_container">
-          <h2> INFORMATION </h2>
-            <a href="#">legal information</a>
-            <a href="#">what is salty and sweet</a>
-            <form action="">
-              <label for="OPINE">OPINE</label>
-              <input name="OPINE" id="OPINE" type="text" placeholder="Thank you">
-              <button type="sumit">OPINE</button>
-            </form>
-          </div>
-        </div>
-      
-      
-      
-      </footer>
-      
- </body>
+     </div>
+   </div>  
+ 
+ </div>
+
+</div>
+
+<footer>
+
+    <div class="footer_options">
+      <div class="footer_container">
+      <h2> CONTACT </h2>
+        <a href="#">facundobugallo881@gmail.com</a>
+        <a href="#">1140445189</a>
+        <a href="#">https://www.instagram.com/_el_clon_/</a>
+     </div>
+    </div>
+  
+    <div class="footer_options">
+      <div class="footer_container">
+      <h2> INFORMATION </h2>
+        <a href="#">legal information</a>
+        <a href="#">what is salty and sweet</a>
+        <form action="">
+          <label for="OPINE">OPINE</label>
+          <input name="OPINE" id="OPINE" type="text" placeholder="Thank you">
+          <button type="sumit">OPINE</button>
+        </form>
+      </div>
+    </div>   
+</footer>
+
+
+</body>
 </html>
+

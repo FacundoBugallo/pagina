@@ -1,0 +1,49 @@
+
+.fedeIn{
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-name: texts;
+}
+
+@keyframes texts {
+from{
+    opacity: 0;
+}    
+to{
+ opacity: 1;
+}
+
+}
+.fadeDown{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: navbar;
+}
+
+@keyframes navbar {
+  from{
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  } 
+ to{
+   opacity: 1;
+   transform: translate3d(0, 0, 0); 
+ }
+}
+
+.fadeUp{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: conten;
+}
+
+@keyframes conten {
+    from{
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+      } 
+     to{
+       opacity: 1;
+       transform: translate3d(0, 0, 0); 
+     }
+}
